@@ -1,12 +1,14 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import React from 'react';
+import Head from "next/head";
+import { Button } from "antd";
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Home</title>
-      </Head>
-    </div>
-  )
-}
+const Home = () => (
+    <>
+        <Head>
+            <title>Home</title>
+        </Head>
+        <div><Button>测试antd按需载入</Button></div>
+    </>
+)
+
+export default Home;
