@@ -5,12 +5,12 @@ import { HomeOutlined, YoutubeOutlined, SmileOutlined } from '@ant-design/icons'
 
 const Header = () => (
     <div className="header">
-        <Row type="flex" justify="center">
-            <Col xs={24} sm={24} md={24} lg={10} xl={10}>
+        <Row justify="center">
+            <Col xs={24} sm={24} md={10} lg={15} xl={12}>
                 <span className="header-logo">程序媛</span>
                 <span className="header-txt">专注前端开发，学习技术胖的视频。</span>
             </Col>
-            <Col className="menu-div" xs={0} sm={0} md={14} lg={8} xl={6}>
+            <Col xs={0} sm={0} md={14} lg={8} xl={6}>
                 <Menu mode="horizontal">
                     <Menu.Item key="home">
                         <HomeOutlined /> 博客首页
