@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Head from "next/head";
 import Header from "../components/Header";
+import Author from "../components/Auhtor";
 import { Row, Col, List } from 'antd';
 import { CalendarOutlined, FolderOutlined, FireOutlined } from '@ant-design/icons';
 
@@ -41,8 +42,8 @@ const Home = () => {
 
                     </List>
                 </Col>
-                <Col className="comm-right" xs={0} sm={0} md={7} lg={5} xl={4}>
-                    右侧
+                <Col className="comm-box" xs={0} sm={0} md={7} lg={5} xl={4}>
+                    <Author />
                 </Col>
             </Row>
         </>

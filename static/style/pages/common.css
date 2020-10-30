@@ -1,9 +1,6 @@
 body {
     background-color: #f6f6f6;
 }
-body{
-    background-color: #f6f6f6;
-}
 
 .comm-left{
     background-color: #FFF;
@@ -11,7 +8,7 @@ body{
     border-radius: .3rem;
     border-bottom:1px solid #eee;
 }
-.comm-right{
+.comm-box{
     background-color: #FFF;
     margin-left: .5rem;
     padding:.3rem;
