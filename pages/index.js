@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Author from "../components/Auhtor";
 import Advert from "../components/Advert";
+import Footer from "../components/Footer";
 import { Row, Col, List } from 'antd';
 import { CalendarOutlined, FolderOutlined, FireOutlined } from '@ant-design/icons';
 
@@ -48,6 +49,7 @@ const Home = () => {
                     <Advert />
                 </Col>
             </Row>
+            <Footer />
         </>
     );
 }
